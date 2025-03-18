@@ -12,7 +12,7 @@ namespace SauseDemoPage_Testing.Pages
         public HiddenMenuPage(IWebDriver driver) : base(driver)
         {
         }
-        public readonly By menuButton = By.Id("react-burger-menu-btn");
+        private readonly By menuButton = By.Id("react-burger-menu-btn");
      
         private readonly By logoutLink = By.Id("logout_sidebar_link");
         
